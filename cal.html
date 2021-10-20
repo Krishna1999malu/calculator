@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cal.css">
+</head>
+
+<body>
+    <h1>Calculator</h1>
+
+    <form action="" name="calc">
+        <div class="cal">
+            <input type="text" name="display" id="result" placeholder="0"
+                style="width:370px; height:70px; background-color:rgb(239, 231, 247)"><br>
+            <input class="btn" type="button" onclick="displayValue(`(`)" id="btn1" value="("
+                style="background-color: rgb(243, 189, 231);">
+            <input class="btn" type="button" onclick="displayValue(`)`)" id="btn1" value=")"
+                style="background-color: rgb(243, 189, 231);">
+            <input class="btn" type="button" onclick="displayValue(`%`)" id="btn1" value="%"
+                style="background-color: rgb(243, 189, 231);">
+            <input class="btn" type="button" onclick="clearBox()" id="btn1" value="AC"
+                style="background-color: rgb(189, 64, 214);"><br>
+            <input class="btn" type="button" onclick="displayValue(7)" id="btn1" value="7">
+            <input class="btn" type="button" onclick="displayValue(8)" id="btn1" value="8">
+            <input class="btn" type="button" onclick="displayValue(9)" id="btn1" value="9">
+            <input class="btn" type="button" onclick="displayValue(`/`)" id="btn1" value="/"
+                style="background-color: rgb(243, 189, 231);"><br>
+            <input class="btn" type="button" onclick="displayValue(4)" id="btn1" value="4">
+            <input class="btn" type="button" onclick="displayValue(5)" id="btn1" value="5">
+            <input class="btn" type="button" onclick="displayValue(6)" id="btn1" value="6">
+            <input class="btn" type="button" onclick="displayValue(`*`)" id="btn1" value="*"
+                style="background-color: rgb(243, 189, 231);"><br>
+            <input class="btn" type="button" onclick="displayValue(1)" id="btn1" value="1">
+            <input class="btn" type="button" onclick="displayValue(2)" id="btn1" value="2">
+            <input class="btn" type="button" onclick="displayValue(3)" id="btn1" value="3">
+            <input class="btn" type="button" onclick="displayValue(`-`)" id="btn1" value="-"
+                style="background-color: rgb(243, 189, 231);"><br>
+            <input class="btn" type="button" onclick="displayValue(0)" id="btn1" value="0">
+            <input class="btn" type="button" onclick="displayValue(`.`)" id="btn1" value=".">
+
+            <input class="btn" type="button" onclick="evaluateExpression()" id="btn1" value="="
+                style="background-color: rgb(176, 47, 202);">
+            <input class="btn" type="button" onclick="displayValue(`+`)" id="btn1" value="+"
+                style="background-color: rgb(243, 189, 231);">
+
+        </div>
+    </form>
+</body>
+<script src="./cal1.js">
+
+</script>
+
+</html>
